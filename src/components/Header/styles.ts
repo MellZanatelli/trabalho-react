@@ -3,16 +3,16 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
   /* Cabeçalho */
-  border-bottom: 0.4rem solid ${colors.third};
-  display: flex;
-  height: 6rem;
-  picture {
-    margin-left: 0.5rem;
-    padding: 0.5rem;
-    img {
-      height: 100%;
-    }
-  }
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: #5B03A0;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 4rem;
 `
 
 export const NavBar = styled.nav`
@@ -33,11 +33,20 @@ export const NavBar = styled.nav`
       align-items: center;
       a {
         text-decoration: none;
-        color: var(--black);
+        color: ${colors.preto};
       }
     }
+    li#entrar {
+      border-width: 2px;
+      border-top: solid ${colors.azul};
+      border-left: solid ${colors.rosa};
+      border-right: solid ${colors.azul};
+      border-bottom: solid ${colors.rosa};
+      border-radius: 2px;
+    }
+  
     li:hover {
-      background-color: ${colors.secondaryLight};
+      text-decoration: underline;
     }
   }
 

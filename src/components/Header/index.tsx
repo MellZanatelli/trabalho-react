@@ -1,7 +1,7 @@
 import * as S from "./styles"
-import Logo from "../../assets/truck.svg"
+import Logo from "../../assets/logo.png"
 
-export function Header {
+export function Header() {
   return (
     <S.Header>
       <picture>
@@ -9,11 +9,15 @@ export function Header {
       </picture>
       <S.NavBar>
         <ul>
-          <li>
-            <a href="/">Página Inicial</a>
+          <li id="entrar">
+            <a href="entrar.html">Entrar</a>
+
           </li>
-          <li>
-            <a href="/List">Lista</a>
+
+          <li id="espaco"></li>
+
+          <li id="cadastrar">
+            <a href="">Cadastrar</a>
           </li>
         </ul>
       </S.NavBar>
