@@ -15,11 +15,27 @@ export const Header = styled.header`
     margin-bottom: 4rem;
 `
 
+export const Picture = styled.picture`
+  /*Logo*/
+  padding-left: 3rem;
+  padding-right: 4rem;
+  height: 80%;
+  align-items: center;
+  display: flex-end;
+  img {
+    height: 100%;
+  }
+`
+export const Espaco = styled.article`
+  padding: 1rem;
+`
+
 export const NavBar = styled.nav`
   /* Navegação */
   display: flex;
   align-items: center;
   width: 100%;
+  height: 80%;
   justify-content: right;
   ul {
     list-style-type: none;
@@ -34,6 +50,7 @@ export const NavBar = styled.nav`
       a {
         text-decoration: none;
         color: ${colors.preto};
+        font-family: "Press Start 2P";
       }
     }
     li#entrar {
@@ -44,7 +61,11 @@ export const NavBar = styled.nav`
       border-bottom: solid ${colors.rosa};
       border-radius: 2px;
     }
-  
+    li#cadastrar {
+      padding: 1.4rem 1rem 1.4rem 1rem;
+      border-radius: 0.5rem;
+      background-image: linear-gradient( ${colors.azul}, ${colors.rosa});
+    }
     li:hover {
       text-decoration: underline;
     }

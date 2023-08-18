@@ -9,4 +9,27 @@ export const Section = styled.section`
   }
 `
 
+export const SectionI = styled.section`
+
+`
+
+export const SectionII = styled.section`
+
+`
+
+export const SectionIII = styled.section`
+
+`
+
+export const Espaco = styled.article`
+
+`
+
+export const Lista = styled.ul`
+
+`
+export const Exemplo = styled.ul`
+
+`
+
 

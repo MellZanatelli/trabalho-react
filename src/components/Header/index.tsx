@@ -4,9 +4,9 @@ import Logo from "../../assets/logo.png"
 export function Header() {
   return (
     <S.Header>
-      <picture>
+      <S.Picture>
         <img src={Logo} alt="Logo" />
-      </picture>
+      </S.Picture>
       <S.NavBar>
         <ul>
           <li id="entrar">
@@ -21,6 +21,7 @@ export function Header() {
           </li>
         </ul>
       </S.NavBar>
+      <S.Espaco/>
     </S.Header>
   )
 }

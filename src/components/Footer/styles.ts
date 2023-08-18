@@ -1,13 +1,10 @@
 import styled from "styled-components"
-
-import { colors } from "../../styles/GlobalStyle"
+import Mato from "../../assets/matinho.png"
 
 export const Footer = styled.footer`
   /* Rodapé */
-  background-color: ${colors.third};
-  height: 3rem;
-  img {
-    height: 100%;
-    padding: 0.4rem;
-  }
+  background: #2E1B5B;
+  background-image: url("/matinho.png");
+  height: 100%;
+  
 `
