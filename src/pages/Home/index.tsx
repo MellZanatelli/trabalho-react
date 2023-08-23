@@ -1,8 +1,8 @@
 import * as S from './styles'
 import Spy from "../../assets/aranha.png"
 import Bat from "../../assets/morcego.png"
-import Seta from "../../assets/truckright.png"
-import SetaI from "../../assets/truckright.png"
+import Seta from "../../assets/seta.png"
+import SetaI from "../../assets/setaI.png"
 import Mais from "../../assets/truckright.png"
 
 export function Home() {
@@ -36,7 +36,7 @@ export function Home() {
       <S.SectionII>
         <div>
           <p id="I">Faça seu RPG balanceado, fácil </p>
-          <p id="II">e totalmente balanceado!</p>
+          <p id="II">e totalmente personalizado!</p>
         </div>
       </ S.SectionII>
 

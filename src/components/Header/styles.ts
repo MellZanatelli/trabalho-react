@@ -8,11 +8,9 @@ export const Header = styled.header`
     height: 4rem;
     background-color: #5B03A0;
     align-items: center;
-    position: fixed;
     right: 0;
     left: 0;
     top: 0;
-    margin-bottom: 4rem;
 `
 
 export const Picture = styled.picture`
