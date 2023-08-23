@@ -3,7 +3,7 @@ import Spy from "../../assets/aranha.png"
 import Bat from "../../assets/morcego.png"
 import Seta from "../../assets/seta.png"
 import SetaI from "../../assets/setaI.png"
-import Mais from "../../assets/truckright.png"
+import Mais from "../../assets/mais.png"
 
 export function Home() {
   return (
@@ -16,7 +16,6 @@ export function Home() {
               <li id="link">
                 <a href="">Começar</a>
               </li>
-              <S.Espaco />
               <li>
                 <img src={Seta} alt="Seta" />
               </li>
@@ -42,7 +41,7 @@ export function Home() {
 
       <S.SectionIII>
         <picture>
-          <img src={Bat} alt="Bat" />
+          <img id="bat" src={Bat} alt="Bat" />
         </picture>
         <S.Lista>
           <ul id="lista">

@@ -7,6 +7,7 @@ export const Section = styled.section`
   width: 100%;
   margin: 0 auto;
   align-items: center;
+  justify-content: center;
 `
 
 export const SectionI = styled.section`
@@ -96,17 +97,37 @@ export const SectionIII = styled.section`
   align-items: center;
   display: grid;
   grid-template-columns: auto auto auto;
-
-`
-
-export const Espaco = styled.article`
-
+  justify-content: center;
+  img#bat{
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem;
+  }
 `
 
 export const Lista = styled.ul`
-
+  padding: 4rem;
+  ul#lista{
+    color: ${colors.rosa};
+    font-family: "Press Start 2P";
+    font-size: 2.5rem;
+    margin: 2rem;
+  }
+  
 `
 export const Exemplo = styled.ul`
+  display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+  li#seta{
+    padding: 1rem;
+  }
+  li#exemplo{
+    color: ${colors.rosa};
+    padding: 2rem;
+    font-family: "New Rocker";
+    font-size: 3rem;
+  }
 
 `
 

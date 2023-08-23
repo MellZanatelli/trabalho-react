@@ -9,4 +9,12 @@ export const Aside = styled.aside`
   h3 strong{
     font-weight: bold;
   }
+  padding: 1rem;
+    padding-right: 0;
+    background-color: var(--branco);
+    align-items: center;
+    justify-content: space-around;
+    display: block;
+    border-radius: 0.5rem;
+    margin: 1rem;
 `
