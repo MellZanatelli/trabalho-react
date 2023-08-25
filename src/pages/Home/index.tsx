@@ -14,7 +14,7 @@ export function Home() {
           <li>
             <ul id="cadastro">
               <li id="link">
-                <a href="">Começar</a>
+                <a href="/">Começar</a>
               </li>
               <li>
                 <img src={Seta} alt="Seta" />
@@ -22,7 +22,7 @@ export function Home() {
             </ul>
           </li>
           <li id="rosa">
-            <a href="entrar.html">Já tenho uma conta!</a>
+            <a href="/List">Já tenho uma conta!</a>
           </li>
 
         </ul>

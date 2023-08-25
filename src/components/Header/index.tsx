@@ -10,14 +10,14 @@ export function Header() {
       <S.NavBar>
         <ul>
           <li id="entrar">
-            <a href="entrar.html">Entrar</a>
+            <a href="/List">Entrar</a>
 
           </li>
 
           <li id="espaco"></li>
 
           <li id="cadastrar">
-            <a href="">Cadastrar</a>
+            <a href="/">Cadastrar</a>
           </li>
         </ul>
       </S.NavBar>

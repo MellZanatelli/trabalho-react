@@ -1,32 +1,36 @@
+import Gil from "../assets/Gil.png"
+import Clow from "../assets/Clow.png"
+import Chama from "../assets/Chama.png"
+import Pantano from "../assets/pantano.png"
+import Cidade from "../assets/cidade.png"
+
 export const dados = [
   {
     id: 1,
-    data: "23/06/2023 07:00:00",
-    titulo: "Aula",
-    mensagem: "Componentes"
+    nome: "Gil, O Mago",
+    foto: Gil
   },
   {
     id: 2,
-    data: "23/06/2023 07:10:00",
-    titulo: "Aula Web",
-    mensagem: "Serviços"
+    nome: "Clow, O Procurado",
+    foto: Clow
   },
   {
     id: 3,
-    data: "23/06/2023 07:20:00",
-    titulo: "Aula React",
-    mensagem: "Rotas"
-  },
+    nome: "Chama, O Amigo",
+    foto: Chama
+  }
+]
+
+export const dados2 = [
   {
     id: 4,
-    data: "23/06/2023 07:30:00",
-    titulo: "Aula React Web",
-    mensagem: "Estilos"
+    nome: "Pântano Assombrado",
+    foto: Pantano
   },
   {
     id: 5,
-    data: "23/06/2023 07:30:00",
-    titulo: "Aula React Web",
-    mensagem: "Estilos"
-  },
+    nome: "Cidade Fantasma",
+    foto: Cidade
+  }
 ]
