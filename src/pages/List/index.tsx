@@ -1,12 +1,13 @@
-import React from 'react'
 import * as S from './styles'
 import { dados } from "../../services/dados"
 import { dados2 } from "../../services/dados"
 import { ComponentCard } from '../../components'
+import { ComponentMenu } from '../../components'
 
 export function List() {
   return (
     <>
+      <ComponentMenu/>
       <S.Section>
         {dados.map(item => (
           <ComponentCard

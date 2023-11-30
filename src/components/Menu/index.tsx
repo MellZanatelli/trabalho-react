@@ -1,11 +1,10 @@
-import React from "react";
 import{FcReuse} from "react-icons/fc";
 import{GrLogout} from "react-icons/gr";
 import * as S from "./styles";
 import{Link, useNavigate} from "react-router-dom";
 import{useAuth} from "../../hooks/authHook";
 
-const Menu = () => {
+export const Menu = () => {
     const { user, signOut } = useAuth()
     const navigate = useNavigate();
     async function logout() {
