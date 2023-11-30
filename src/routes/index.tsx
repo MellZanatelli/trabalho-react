@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { PageAdm, PageCadastrar, PageHome, PageLayout, PageList, PageLogin } from '../pages'
+import { PageCadastrar, PageHome, PageLayout, PageList, PageLogin } from '../pages'
 import ProtectedRoute from './ProtectedRoute'
 
 export const RouteSoftware = () => {
