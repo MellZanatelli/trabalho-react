@@ -24,7 +24,7 @@ export const Menu = () => {
                     user ? (
                         <ul>
                             <li>
-                                <button onClick={logout}>{user.name} <GrLogout /></button>
+                                <button onClick={logout}> Sair <GrLogout /></button>
                             </li>
                         </ul >
                     ) : (

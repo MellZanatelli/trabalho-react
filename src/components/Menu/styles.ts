@@ -29,7 +29,7 @@ export const Cabecalho = styled.header`
                     gap: 0.5rem;
                     align-items: center;
                     text-decoration: none;
-                    font-size: 1.2em;
+                    font-size: 2rem;
                     color: ${colors.lilas};
                     border: 0;
                     background-color: transparent;
