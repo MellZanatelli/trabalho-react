@@ -7,7 +7,6 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
   h1 {
     color: ${colors.branco};
     font-weight: 500;
@@ -15,13 +14,16 @@ export const Section = styled.section`
     font-size: 2rem;
   }
   form {
-    background-color: ${colors.preto};
-    border: 0.2rem solid ${colors.lilas};
+    background-color: ${colors.dark};
+    border: 0.2rem solid ${colors.rosa};
     border-radius: 1rem;
     padding: 1.5rem;
+    label {
+        color: ${colors.azul};
+    }
     div {
-      background-color: ${colors.dark};
-      border: 0.15rem solid ${colors.azul};
+      background-color: ${colors.preto};
+      border: 0.15rem solid ${colors.rosa};
       border-radius: 0.6rem;
       display: flex;
       margin: 0.5rem 0;
@@ -29,14 +31,15 @@ export const Section = styled.section`
         height: 3rem;
         width: 3rem;
         padding: 0.3rem;
-        color: ${colors.rosa};
+        color: ${colors.azul};
       }
       input {
         width: 100%;
         font-size: 1rem;
         border: 0;
         background-color: transparent;
-        color: ${colors.azul}
+        color: ${colors.branco};
+        
       }
     }
     p {
@@ -49,7 +52,7 @@ export const Section = styled.section`
         margin-right: 1rem;
       }
       button {
-        background-color: ${colors.dark};
+        background-color: ${colors.preto};
         border: 0.1rem solid ${colors.rosa};
         color: ${colors.branco};
         padding: 1rem;
